@@ -47,5 +47,9 @@ elif choice == '4':
    print(num1,"/",num2,"=", divide(num1,num2))
 else:
    print("Invalid input")
+<<<<<<< HEAD
 print("Thanks for using my APP.")
 print("By: OLANO TEAH BLOH")
+=======
+print("Thanks for using my APP")
+>>>>>>> origin/olan
