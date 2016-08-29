@@ -22,16 +22,17 @@ def divide(x, y):
    return x / y
 
 # take input from the user
-print("Select operation.")
+print("OLANO TEAH BLOH Multi Purpose Calculator")
+print("Please Select any number base on the operators attached.")
 print("1.Add")
 print("2.Subtract")
 print("3.Multiply")
 print("4.Divide")
 
 choice = input("Enter choice(1/2/3/4):")
-
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: "))
+print("Please enter only numbers not alphabet")
+num1 = int(input("Please Enter the first number: "))
+num2 = int(input("Please Enter the second number: "))
 
 if choice == '1':
    print(num1,"+",num2,"=", add(num1,num2))
@@ -46,3 +47,5 @@ elif choice == '4':
    print(num1,"/",num2,"=", divide(num1,num2))
 else:
    print("Invalid input")
+print("Thanks for using my APP.")
+print("By: OLANO TEAH BLOH")
